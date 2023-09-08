@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include toyota *.css
+recursive-include toyota *.csv
+recursive-include toyota *.html
+recursive-include toyota *.ico
+recursive-include toyota *.js
+recursive-include toyota *.json
+recursive-include toyota *.md
+recursive-include toyota *.png
+recursive-include toyota *.py
+recursive-include toyota *.svg
+recursive-include toyota *.txt
+recursive-exclude toyota *.pyc
