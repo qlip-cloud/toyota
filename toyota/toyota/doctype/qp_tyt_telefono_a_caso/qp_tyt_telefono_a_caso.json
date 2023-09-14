@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "creation": "2023-09-14 00:25:36.858886",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "incidente",
+  "fase_activa",
+  "raz\u00f3n_para_el_estado",
+  "fecha_de_creaci\u00f3n",
+  "proceso"
+ ],
+ "fields": [
+  {
+   "fieldname": "incidente",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Incidente"
+  },
+  {
+   "fieldname": "fase_activa",
+   "fieldtype": "Data",
+   "label": "Fase activa"
+  },
+  {
+   "fieldname": "raz\u00f3n_para_el_estado",
+   "fieldtype": "Data",
+   "label": "Raz\u00f3n para el estado"
+  },
+  {
+   "fieldname": "fecha_de_creaci\u00f3n",
+   "fieldtype": "Data",
+   "label": "Fecha de creaci\u00f3n"
+  },
+  {
+   "fieldname": "proceso",
+   "fieldtype": "Data",
+   "label": "Proceso"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-14 00:25:36.858886",
+ "modified_by": "Administrator",
+ "module": "Toyota",
+ "name": "qp_TYT_telefono_a_caso",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
