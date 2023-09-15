@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "creation": "2023-09-14 20:03:44.063511",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "email_guid",
+  "email_subject",
+  "regardingobjectid",
+  "objectid_value",
+  "mimetype",
+  "filename",
+  "body"
+ ],
+ "fields": [
+  {
+   "fieldname": "email_guid",
+   "fieldtype": "Data",
+   "label": "Email GUID"
+  },
+  {
+   "fieldname": "email_subject",
+   "fieldtype": "Data",
+   "label": "Email Subject"
+  },
+  {
+   "fieldname": "regardingobjectid",
+   "fieldtype": "Data",
+   "label": "regardingobjectid"
+  },
+  {
+   "fieldname": "objectid_value",
+   "fieldtype": "Data",
+   "label": "objectid_value"
+  },
+  {
+   "fieldname": "mimetype",
+   "fieldtype": "Data",
+   "label": "mimetype"
+  },
+  {
+   "fieldname": "filename",
+   "fieldtype": "Data",
+   "label": "filename"
+  },
+  {
+   "fieldname": "body",
+   "fieldtype": "Data",
+   "label": "body"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-14 20:03:44.063511",
+ "modified_by": "Administrator",
+ "module": "Toyota",
+ "name": "qp_TYT_Adjuntos_Correo_Electronico",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
