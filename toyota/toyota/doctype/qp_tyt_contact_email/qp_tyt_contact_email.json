@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "creation": "2023-09-15 14:36:30.364243",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "asunto",
+  "de",
+  "para",
+  "referente_a",
+  "descripci\u00f3n",
+  "prioridad",
+  "raz\u00f3n_para_el_estado",
+  "fecha_de_modificaci\u00f3n",
+  "duraci\u00f3n",
+  "tipo_de_actividad",
+  "fecha_de_creaci\u00f3n"
+ ],
+ "fields": [
+  {
+   "fieldname": "asunto",
+   "fieldtype": "Data",
+   "label": "Asunto"
+  },
+  {
+   "fieldname": "de",
+   "fieldtype": "Data",
+   "label": "De"
+  },
+  {
+   "fieldname": "para",
+   "fieldtype": "Data",
+   "label": "Para"
+  },
+  {
+   "fieldname": "referente_a",
+   "fieldtype": "Data",
+   "label": "Referente a"
+  },
+  {
+   "fieldname": "descripci\u00f3n",
+   "fieldtype": "Data",
+   "label": "Descripci\u00f3n"
+  },
+  {
+   "fieldname": "prioridad",
+   "fieldtype": "Data",
+   "label": "Prioridad"
+  },
+  {
+   "fieldname": "raz\u00f3n_para_el_estado",
+   "fieldtype": "Data",
+   "label": "Raz\u00f3n para el estado"
+  },
+  {
+   "fieldname": "fecha_de_modificaci\u00f3n",
+   "fieldtype": "Data",
+   "label": "Fecha de modificaci\u00f3n"
+  },
+  {
+   "fieldname": "duraci\u00f3n",
+   "fieldtype": "Data",
+   "label": "Duraci\u00f3n"
+  },
+  {
+   "fieldname": "tipo_de_actividad",
+   "fieldtype": "Data",
+   "label": "Tipo de actividad"
+  },
+  {
+   "fieldname": "fecha_de_creaci\u00f3n",
+   "fieldtype": "Data",
+   "label": "Fecha de creaci\u00f3n"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-15 14:36:30.364243",
+ "modified_by": "Administrator",
+ "module": "Toyota",
+ "name": "qp_TYT_contact_email",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
