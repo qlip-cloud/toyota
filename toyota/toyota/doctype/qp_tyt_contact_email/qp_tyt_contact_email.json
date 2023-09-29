@@ -20,7 +20,7 @@
  "fields": [
   {
    "fieldname": "asunto",
-   "fieldtype": "Data",
+   "fieldtype": "Long Text",
    "label": "Asunto"
   },
   {
@@ -40,7 +40,7 @@
   },
   {
    "fieldname": "descripci\u00f3n",
-   "fieldtype": "Data",
+   "fieldtype": "Long Text",
    "label": "Descripci\u00f3n"
   },
   {
@@ -76,7 +76,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-15 14:36:30.364243",
+ "modified": "2023-09-29 16:21:31.350478",
  "modified_by": "Administrator",
  "module": "Toyota",
  "name": "qp_TYT_contact_email",
