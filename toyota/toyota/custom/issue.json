@@ -1257,7 +1257,7 @@
    "reqd": 0,
    "search_index": 0,
    "translatable": 1,
-   "unique": 0,
+   "unique": 1,
    "width": null
   },
   {
@@ -1563,6 +1563,31 @@
  ],
  "custom_perms": [],
  "doctype": "Issue",
- "property_setters": [],
+ "property_setters": [
+  {
+   "_assign": null,
+   "_comments": null,
+   "_liked_by": null,
+   "_user_tags": null,
+   "creation": "2023-10-05 14:57:58.552263",
+   "default_value": null,
+   "doc_type": "Issue",
+   "docstatus": 0,
+   "doctype_or_field": "DocType",
+   "field_name": null,
+   "idx": 0,
+   "modified": "2023-10-05 14:57:58.552263",
+   "modified_by": "Administrator",
+   "name": "Issue-main-autoname",
+   "owner": "Administrator",
+   "parent": null,
+   "parentfield": null,
+   "parenttype": null,
+   "property": "autoname",
+   "property_type": "Data",
+   "row_name": null,
+   "value": "field:qp_numero_de_caso"
+  }
+ ],
  "sync_on_migrate": 1
 }
