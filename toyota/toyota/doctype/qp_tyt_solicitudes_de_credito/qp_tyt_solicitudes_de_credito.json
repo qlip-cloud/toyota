@@ -53,6 +53,7 @@
   {
    "fieldname": "n\u00famero_solicitud",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "N\u00famero Solicitud"
   },
   {
@@ -63,11 +64,13 @@
   {
    "fieldname": "cuenta",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Cuenta"
   },
   {
    "fieldname": "n\u00famero_operaci\u00f3n",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "N\u00famero Operaci\u00f3n"
   },
   {
@@ -178,7 +181,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-14 00:43:13.493606",
+ "modified": "2023-10-18 08:39:33.631336",
  "modified_by": "Administrator",
  "module": "Toyota",
  "name": "qp_TYT_solicitudes_de_credito",
