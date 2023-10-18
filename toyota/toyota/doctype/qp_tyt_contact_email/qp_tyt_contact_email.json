@@ -21,16 +21,19 @@
   {
    "fieldname": "asunto",
    "fieldtype": "Long Text",
+   "in_list_view": 1,
    "label": "Asunto"
   },
   {
    "fieldname": "de",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "De"
   },
   {
    "fieldname": "para",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Para"
   },
   {
@@ -76,7 +79,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-29 16:21:31.350478",
+ "modified": "2023-10-18 08:34:18.001182",
  "modified_by": "Administrator",
  "module": "Toyota",
  "name": "qp_TYT_contact_email",
