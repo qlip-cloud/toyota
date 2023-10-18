@@ -21,6 +21,7 @@
   {
    "fieldname": "fase_activa",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Fase activa"
   },
   {
@@ -41,7 +42,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-14 00:25:36.858886",
+ "modified": "2023-10-18 08:37:14.206586",
  "modified_by": "Administrator",
  "module": "Toyota",
  "name": "qp_TYT_telefono_a_caso",
